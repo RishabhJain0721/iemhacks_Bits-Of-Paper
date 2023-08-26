@@ -1,3 +1,16 @@
+# Team Details
+
+## Members :
+
+1. Rishabh Jain
+Github username - RishabhJain0721 (https://github.com/RishabhJain0721)
+2. Sakar Kumar
+Github username - Sakar95 (https://github.com/Sakar95)
+
+## Problem Statement :
+
+In the age of digital education, students often are overwhelmed with a mountain of study materials scattered across different platforms, folders, and devices. This fragmentation leads to inefficiency, difficulty in locating resources, and lack of organized study practices. There is a need for a centralized and intuitive solution that allows users to efficiently store, manage, and access their study materials, ensuring a seamless and organized learning experience.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
