@@ -2,9 +2,9 @@
 
 ## Members :
 
-1. Rishabh Jain
+#### 1. Rishabh Jain 
 Github username - RishabhJain0721 (https://github.com/RishabhJain0721)
-2. Sakar Kumar
+#### 2. Sakar Kumar
 Github username - Sakar95 (https://github.com/Sakar95)
 
 ## Problem Statement :
