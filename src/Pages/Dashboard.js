@@ -5,7 +5,7 @@ import { doc, getDoc } from "firebase/firestore";
 import { AuthContext } from "../Context/AuthContext";
 
 import SubjectNav from "../components/SubjectNav";
-// import ChapterList from "../components/ChapterList";
+import ChapterList from "../components/ChapterList";
 
 const Dashboard = () => {
   const [student, setStudent] = useState(null);
@@ -57,6 +57,7 @@ const Dashboard = () => {
           <SubjectNav student={student} />
 
           <div className="flex-grow">
+            <ChapterList student={student} />
           </div>
         </div>
       )}
