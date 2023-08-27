@@ -28,7 +28,6 @@ const LogIn = () => {
     signInWithEmailAndPassword(auth, values.email, values.password)
       .then(async (userCredential) => {
         const user = userCredential.user;
-        console.log("User logged in with credentials : ",user);
         dispatch({ type: "LOGIN", payload: user });
         navigate("/dashboard");
       })

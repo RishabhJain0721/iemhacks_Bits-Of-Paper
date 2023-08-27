@@ -35,7 +35,6 @@ const SignUp = () => {
       await updateProfile(user, {
         displayName: values.name,
       });
-      console.log("New user created with credentials : ", user);
 
       const studentData = {
         name: values.name,
@@ -47,7 +46,6 @@ const SignUp = () => {
       const docRef = doc(db, "students", user.uid);
 
       await setDoc(docRef, studentData);
-      console.log("Document written with ID: ", user.uid);
 
       navigate("/dashboard");
     } catch (e) {
