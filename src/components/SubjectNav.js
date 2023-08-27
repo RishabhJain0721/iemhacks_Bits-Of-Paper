@@ -34,14 +34,15 @@ const SubjectNav = ({ student }) => {
 
   return (
     <div className="md:w-4/7">
-      <div>
-        <h2>Subjects</h2>
+      <div className="bg-gray-800 text-white p-4 rounded-md mb-4">
+        <h2 className="text-xl font-bold mb-2 text-center">Subjects</h2>
         <ul>
           <SubjectItem subjects={updatedSubjectsList} setUpdatedSubjectsList={setUpdatedSubjectsList} />
         </ul>
-        <div>
-          <span>{student.name}</span>
+        <div className="flex flex-col items-center mt-6">
+          <span className="font-semibold mb-1 mt-7">{student.name}</span>
           <button
+            className="block bg-red-600 text-white px-2 py-1 rounded-md mt-1 text-sm"
             onClick={handleLogout}
           >
             Log Out
